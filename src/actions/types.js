@@ -1,0 +1,133 @@
+export const EMAIL_CHANGED = 'email_changed';
+export const PASSWORD_CHANGED = 'password_changed';
+
+export const LOGIN_USER = 'login_user';
+export const L_U_S = 'login_user_success';
+export const L_U_F = 'login_user_failed';
+
+export const SIGNIN_USER = 'signin_user';
+export const S_U_S = 'signin_user_success';
+export const S_U_F = 'signin_user_failed';
+
+export const LOGOUT_USER = 'logout_user';
+export const LO_U_C = 'logout_user_confirmed';
+export const LO_U_A = 'logout_user_aborted';
+export const LO_U_S = 'logout_user_success';
+export const LO_U_F = 'logout_user_failed';
+
+export const ADD_AVA_INFO = 'addAvaInfo';
+export const ANSWERPRESSED = 'answerpressed';
+export const AVATOMOVE = 'avatomove';
+export const AVATOPLAY = 'avatoplay';
+export const A_A_I_FAILED = 'addAvaInfofailed';
+export const A_A_I_SUCCESS = 'addAvaInfosuccess';
+export const DSEL = 'dateselected';
+export const DTPCLOSE = 'datetimepickerclose';
+export const DPREQ = 'datepickerrequest';
+export const MAPPRESSED = 'mappressed';
+export const RADVALCH = 'radiusvalchanged';
+export const REGIONCHANGED = 'regionchanged';
+export const TPREQ = 'timepickerrequest';
+export const TSEL = 'timeselected';
+export const TTWCHANGED = 'timetowaitchanged';
+
+export const NAMECHANGED = 'namechanged';
+export const SURNAMECHANGED = 'surnamechanged';
+export const YEARCHANGED = 'yearchanged';
+export const SEXSEL = 'sexselected';
+export const COUNTRYCHANGED = 'countrychanged';
+export const PHONECHANGED = 'phonechanged';
+export const TITLECHANGED = 'titlechanged';
+
+export const STCHANGED = 'standardchanged';
+export const RPCHANGED = 'rapidchanged';
+export const BLCHANGED = 'blitzchanged';
+
+export const ADD_INFO = 'addinfo';
+export const A_I_SUCCESS = 'addinfosuccess';
+export const A_I_FAILED = 'addinfofailed';
+
+export const PROFILE_FETCH = 'profilefetch';
+export const P_F_SUCCESS = 'profilefetchsuccess';
+export const P_F_FAILED = 'profilefetchfailed';
+
+export const FRIENDS_FETCH = 'friendsfetch';
+export const F_F_SUCCESS = 'friendsfetchsuccess';
+export const F_F_FAILED = 'friendsfetchfailed';
+
+export const AVA_FETCH = 'availabilityfetch';
+export const A_F_SUCCESS = 'availabilityfetchsuccess';
+export const A_F_FAILED = 'availabilityfetchfailed';
+
+export const EVENAMECHANGED = 'eventnamechanged';
+export const ANSWERCHANGED = 'answerchanged';
+export const CHOICECHANGED = 'choicechanged';
+export const ADDRESSCHANGED = 'addresschanged';
+export const ROUNDSCHANGED = 'roundschanged';
+export const DTDCHANGED = 'doubleturndayschanged';
+export const LINKCHANGED = 'linkchanged';
+export const DPCALL = 'datepickercalled';
+export const DPICKED = 'datepicked';
+export const DPHIDDEN = 'datetimepickerhidden';
+export const VISITEVENT = 'visitevent';
+export const REMOVEEVENT = 'removeevent';
+export const CONFIRM_REMOVE = 'confirmremove';
+export const C_R_SUCCESS = 'confirmremovesuccess';
+export const C_R_FAILED = 'confirmremovefailed';
+export const R_P_SUCCESS = 'removepartecipantssuccess';
+export const R_P_FAILED = 'removepartecipantsfailed';
+export const DECLINEREMOVE = 'declineremove';
+export const MODIFYEVENT = 'modifyevent';
+export const CREATEEVENT = 'createevent';
+export const ADD_EVENT = 'addevent';
+export const A_E_SUCCESS = 'addeventsuccess';
+export const A_E_FAILED = 'addeventfailed';
+export const EDIT_EVENT = 'editevent';
+export const E_E_SUCCESS = 'editeventsuccess';
+export const E_E_FAILED = 'editeventfailed';
+export const EVE_FETCH = 'eventfetch';
+export const E_F_SUCCESS = 'eventfetchsuccess';
+export const E_F_FAILED = 'eventfetchfailed';
+
+export const PROS_FETCH = 'profilesfetch';
+export const PS_F_SUCCESS = 'profilesfetchsuccess';
+export const PS_F_FAILED = 'profilesfetchfailed';
+export const STRINGCHANGED = 'stringchanged';
+export const SHOWOTHERSPROFILE = 'showothersprofile';
+export const NEWREGION = 'newregion';
+export const NEWMARKER = 'newmarker';
+export const NEWRADIUS = 'newradius';
+export const VISITOEVE = 'visitotherevent';
+export const MANAGERFOUND = 'managerfound';
+export const PA_FETCH = 'partfetch';
+export const PA_F_SUCCESS = 'partfetchsuccess';
+export const PA_F_FAILED = 'partfetchfailed';
+export const TAKE_PART = 'takepart';
+export const T_P_SUCCESS = 'takepartsuccess';
+export const T_P_FAILED = 'takepartfailed';
+export const DECLINE_PART = 'declinepart';
+export const D_P_SUCCESS = 'declinesuccess';
+export const D_P_FAILED = 'declinefailed';
+export const FME = 'frommyevent';
+export const SEND_REQ = 'sendrequest';
+export const S_R_SUCCESS = 'sendrequestsuccess';
+export const S_R_FAILED = 'sendrequestfailed';
+export const UNDO_REQ = 'undoreq';
+export const U_R_SUCCESS = 'undoreqsuccess';
+export const U_R_FAILED = 'undoreqfailed';
+export const RECREQ_FETCH = 'recreqfetch';
+export const RR_F_SUCCESS = 'rrfetchsuccess';
+export const RR_F_FAILED = 'rrfetchfailed';
+export const ACC_REQ = 'acceptrequest';
+export const A_R_SUCCESS = 'acceptreqsuccess';
+export const A_R_FAILED = 'acceptreqfailed';
+export const DECL_REQ = 'declinerequest';
+export const D_R_SUCCESS = 'declreqsuccess';
+export const D_R_FAILED = 'declreqfailed';
+export const RFREQ = 'removefreq';
+export const REMOVE_F = 'removefriend';
+export const R_F_SUCCESS = 'removefsuccess';
+export const R_F_FAILED = 'removeffailed';
+export const OTFRIENDS_FETCH = 'otherfriendsfetch';
+export const OTF_F_SUCCESS = 'otherfriendsfetchsuccess';
+export const OTF_F_FAILED = 'otherfriendsfetchfailed';

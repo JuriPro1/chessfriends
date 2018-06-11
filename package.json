@@ -1,0 +1,21 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "dependencies": {
+    "@expo/ex-navigation": "^4.2.0",
+    "@expo/vector-icons": "^6.3.1",
+    "expo": "^26.0.0",
+    "firebase": "^4.12.1",
+    "geolib": "^2.0.24",
+    "native-base": "^2.4.1",
+    "npm": "^5.8.0",
+    "react": "16.3.0-alpha.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
+    "react-native-communications": "^2.2.1",
+    "react-native-modal-datetime-picker": "^5.1.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
